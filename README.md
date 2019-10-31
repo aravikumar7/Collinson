@@ -1,6 +1,5 @@
-# Collinson
+# Sensyne
 # Test Automation with rest assured API and Java.
-This is a sample project to demonstrate the usage of rest assured API and how it can be used to automate any application.
 
 Dependency
 Java
@@ -13,6 +12,6 @@ JUnit
 
 ### Steps to clone execute the tests
 ```
-git clone https://github.com/aravikumar7/Collinson
+git clone https://github.com/aravikumar7/
 mvn clean test
 ```

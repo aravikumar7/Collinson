@@ -6,8 +6,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/"
-        ,glue={"Collinson_StepDef"},
-        tags={"@Functional"},
+        ,glue={"Sensyne_StepDef"},
+        tags={"@GetProduct"},
         plugin = {"pretty", "html:target/cucumber-htmlreport","json:target/cucumber-report.json"}
         )
 public class TestRunner {
