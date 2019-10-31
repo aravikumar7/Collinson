@@ -10,4 +10,4 @@ Run the command mvn test -Dcucumber.options="--tags @DeleteProduct" to delete pr
 Run the command mvn test -Dcucumber.options="--tags @UpdateProduct" to update detail of product "2" with name as "U Neck T-Shirt" and price as "5.66"
 
 
-After running any of the above command, open the test report from  the the porject folder by following the path --> Sensyne/target/cucumber-htmlreport/index.html
+After running any of the above command, open the test report from the project folder by following the path --> Sensyne/target/cucumber-htmlreport/index.html
