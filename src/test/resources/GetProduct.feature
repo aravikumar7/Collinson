@@ -33,6 +33,6 @@ Feature: As a Sensyne API user, I would like to get a product for Sensyne
       | product |
       | 1       |
 
-  Scenario: Validate product price service  responds with 404 message code when there is no product
-    When GET request is sent to get Sensyne Product API for product "1"
+  Scenario: Validate product price service  responds with 404 message code when there is no matching product
+    When GET request is sent to get Sensyne Product API for product "100"
     Then getProduct service should return 404 response

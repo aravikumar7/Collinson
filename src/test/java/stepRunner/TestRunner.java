@@ -1,4 +1,5 @@
 package stepRunner;
+
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -7,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         features = "src/test/resources/"
         ,glue={"Sensyne_StepDef"},
-        tags={"@GetProduct"},
+//        tags={"@GetProduct"},
         plugin = {"pretty", "html:target/cucumber-htmlreport","json:target/cucumber-report.json"}
         )
-public class TestRunner {
+public class TestRunner{
     }

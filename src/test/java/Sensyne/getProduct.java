@@ -1,13 +1,8 @@
 package Sensyne;
 
 import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import static io.restassured.module.jsv.JsonSchemaValidator.*;
-
-import java.util.HashMap;
-import java.util.List;
-
 import static io.restassured.RestAssured.*;
 
 public class getProduct {
@@ -25,8 +20,6 @@ public class getProduct {
             extract().response();
 }
 public int validateResponse(){
-System.out.println(resp.getStatusCode());
- System.out.println(resp);
     return resp.getStatusCode();
 }
 
